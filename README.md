@@ -9,7 +9,7 @@ protocols, calibrated probabilities, and an honest statement of what the data ca
 cannot support. The unifying thread is that **models are not the deliverable — decisions
 are.**
 
-## 📂 Portfolio
+## Portfolio
 
 **[portfolio_projects](https://github.com/ugural87/portfolio_projects)** — end-to-end
 projects, each running the full arc from EDA through rigorously tuned models to the
@@ -24,12 +24,22 @@ In progress: credit risk (PD / IFRS 9 language), classical time series (SARIMA/G
 deep learning forecasting (CNN + Transformer encoder), and an NLP/LLM track
 (recommendation, sentiment, RAG).
 
-## 🔧 Working stack
+## Working stack
 
-Python · pandas · scikit-learn · XGBoost · LightGBM · SHAP · PyTorch ·
-Hugging Face Transformers · statsmodels · Streamlit
+- **Core:** Python · pandas · NumPy · SciPy
+- **Machine learning:** scikit-learn (pipelines, model selection) · imbalanced-learn ·
+  XGBoost · LightGBM · SHAP · statsmodels
+- **Deep learning:** PyTorch — CNNs, BiLSTM + attention, Transformer encoders,
+  self-attention implemented from scratch
+- **NLP / LLM:** Hugging Face Transformers (incl. FinBERT) · gensim (Word2Vec) ·
+  sentence-transformers · TF-IDF pipelines · FAISS · RAG pipelines
+  (chunking → embeddings → vector retrieval → generation) · local LLM deployment
+  (Llama 3.1 8B via Ollama / Apple MLX)
+- **Data access:** kagglehub · FRED & EVDS (CBRT) APIs
+- **Visualization & apps:** matplotlib · seaborn · Plotly · Streamlit
+- **Tooling:** Jupyter · VS Code · Git/GitHub · venv/conda · macOS (Apple Silicon)
 
-## 📫 Contact
+## Contact
 
 [LinkedIn](https://www.linkedin.com/in/ugural87) — open to quantitative
 modelling and data science roles.
