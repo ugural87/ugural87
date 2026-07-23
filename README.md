@@ -31,5 +31,5 @@ Hugging Face Transformers · statsmodels · Streamlit
 
 ## 📫 Contact
 
-[LinkedIn](https://www.linkedin.com/in/YOUR-LINKEDIN-HANDLE) — open to quantitative
+[LinkedIn](https://www.linkedin.com/in/ugural87) — open to quantitative
 modelling and data science roles.
